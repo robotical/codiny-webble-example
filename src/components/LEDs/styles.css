@@ -1,0 +1,22 @@
+.leds-colours-container {
+  margin-top: 2rem;
+  display: flex;
+  max-width: 90px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--colour-MAIN_BLUE);
+  border-radius: 5px;
+  padding: 1rem;
+  column-gap: .5rem;
+}
+
+.leds-colour-1,
+.leds-colour-2,
+.leds-colour-3 {
+  width: 24px;
+  height: 16px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #ccc;
+}
